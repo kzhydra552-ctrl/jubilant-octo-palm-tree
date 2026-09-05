@@ -1,0 +1,20 @@
+{
+  "name": "brainrot-private-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API privada para registrar brainrots de 10M+ e enviar alertas ao Discord.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.9",
+    "ws": "^8.18.0"
+  }
+}
